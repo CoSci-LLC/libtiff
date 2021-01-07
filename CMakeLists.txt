@@ -61,7 +61,8 @@ set(SO_REVISION "${LIBTIFF_REVISION}")
 message(STATUS "Building tiff version ${LIBTIFF_MAJOR_VERSION}.${LIBTIFF_MINOR_VERSION}.${LIBTIFF_MICRO_VERSION}${LIBTIFF_ALPHA_VERSION}")
 message(STATUS "libtiff library version ${SO_MAJOR}.${SO_MINOR}.${SO_REVISION}")
 
-set(BUILD_SHARED_LIBS ON CACHE BOOL "Build shared libraries")
+# set(BUILD_SHARED_LIBS ON CACHE BOOL "Build shared libraries")
+set(BUILD_SHARED_LIBS OFF)
 
 # Project version
 project(tiff C)
